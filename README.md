@@ -14,26 +14,11 @@ frontend는 react, backend는 node.js로 구현되었습니다.
 ## 파일 구조 (File Structure)
 ```bash
 project-root/
-├── src/
-│ ├── component/
-│ │        ├── DeletePostButton.jsx
-│ │        ├── EditPostButton.jsx
-│ │        ├── NewPostButton.jsx
-│ │        ├── PostForm.jsx
-│ │        ├── PostItem.jsx
-│ │        └── PostListButton.jsx
-│ ├── pages/
-│ │     ├── EditPost.jsx
-│ │     ├── NewPost.jsx
-│ │     ├── PostDetail.jsx
-│ │     └── PostList.jsx
-│ ├── services/
-│ │     ├── formatDateToKoreanTime.js
-│ │     └── postsService.js
-│ ├── styles/
-│ │     └── global-styles.js
-│ ├── App.jsx
-│ └── Main.jsx
+├── models/
+│      └── Content.js
+├── routes/
+│      └── index.js
+├── app.js
 ├── package.json
 └── README.md
 ```
