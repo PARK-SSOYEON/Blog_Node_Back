@@ -25,7 +25,7 @@ project-root/
 
 ## 예시 (Screenshot)
 
-<img src="img/TodoListReactscreenshot.gif" width="720" height=auto/>
+<img src="public/images/blog_example.gif" width="720" height=auto/>
 추후 첨부
 
 ## 기능 (Features)
